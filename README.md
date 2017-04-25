@@ -63,40 +63,40 @@ There's about 20-30 lines after the reload, so scroll a bit back. You will see s
 
 ## Configure Icinga2, Icingaweb2, Icinga2 IDO, and Icinga Director in 28 easy steps!
 
-1. You should now be able to open https://YOURHOSTNAME.FQDN/icingaweb2/setup
+ 1. You should now be able to open https://YOURHOSTNAME.FQDN/icingaweb2/setup
 Grab the `token`, in this case `7c45f63648a9ab5e`, paste it and press next.
 
 <img src="screenshots/icinga-step-01.png" width="550" />
 
-2. Make sure you select 'Director' and 'Monitoring' modules.
+ 2. Make sure you select 'Director' and 'Monitoring' modules.
 
 <img src="screenshots/icinga-step-02.png" width="550" />
 
-3. Everything should be green now, except two items that require postgresql.
+ 3. Everything should be green now, except two items that require postgresql.
 
 <img src="screenshots/icinga-step-03.png" width="550" />
 
-4. Just accept the defaults and press next.
+ 4. Just accept the defaults and press next.
 
 <img src="screenshots/icinga-step-04.png" width="550" />
 
-5. Fill in the name of the database (`icingaweb2`), the user (`icingaweb2`) and some random password. You won't need this later. Also use `utf8` as character set.
+ 5. Fill in the name of the database (`icingaweb2`), the user (`icingaweb2`) and some random password. You won't need this later. Also use `utf8` as character set.
 
 <img src="screenshots/icinga-step-05.png" width="550" />
 
-6. Click on `Validate configuration`. It should validate.
+ 6. Click on `Validate configuration`. It should validate.
 
 <img src="screenshots/icinga-step-06.png" width="550" />
 
-7. Fill in username: `root` and the password, in this case `iDsGs4KQvniBZjio83mwkRyd65fnmDMiZ`.
+ 7. Fill in username: `root` and the password, in this case `iDsGs4KQvniBZjio83mwkRyd65fnmDMiZ`.
 
 <img src="screenshots/icinga-step-07.png" width="550" />
 
-8. Just click next.
+ 8. Just click next.
 
 <img src="screenshots/icinga-step-08.png" width="550" />
 
-9. Fill in a user and password that you will use to access the webinterface. It can be any username that you like, and any passord that you like. You need it every time you want to login to Icinga.
+ 9. Fill in a user and password that you will use to access the webinterface. It can be any username that you like, and any passord that you like. You need it every time you want to login to Icinga.
 
 <img src="screenshots/icinga-step-09.png" width="550" />
 
