@@ -1,4 +1,4 @@
-# How to install icinga2-director (on Virtualbox with Vagrant)
+## How to install icinga2-director (on Virtualbox with Vagrant)
 ### CAUTION. This is experimental. For educational purposes only.
 **Please know what you do and don't blame anyone else but yourself when stuff breaks!**
 
