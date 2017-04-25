@@ -1,7 +1,5 @@
-# install-icinga2-director-on-virtualbox-with-vagrant
-how-to-install-icinga2-director-on-virtualbox-with-vagrant
-
-## CAUTION. This is experimental. For educational purposes only.
+# How to install icinga2-director (on Virtualbox with Vagrant)
+### CAUTION. This is experimental. For educational purposes only.
 **Please know what you do and don't blame anyone else but yourself when stuff breaks!**
 
 ## Purpose
@@ -13,7 +11,7 @@ Or, you can read trought the code and see what things need to be done to setup I
 
 ## Other Documentation
 The docs I used as a starting point: https://github.com/Icinga/icingaweb2-module-director/blob/master/doc/02-Installation.md,
-http://www.2daygeek.com/install-icinga2-network-monitoring-tool-on-ubuntu-debian-mint/ 
+http://www.2daygeek.com/install-icinga2-network-monitoring-tool-on-ubuntu-debian-mint/
 
 ## Hetzner
 There is special network configuation in this VM, that has to do with hosting at Hetzner.de. See http://wiki.hetzner.de/index.php/Netzkonfiguration_Debian/en
@@ -25,8 +23,8 @@ Run the script `./00_install_plugins.sh` once before you run `vagrant up`. It in
 
 # Preparation II
 Make sure you modify the Vagrantfile accordingly. 1024 MB RAM is the minimum.
-At the least supply a hostname. 
-Also read the other 'install-*' scripts, and fill in the necessary values (email address and such). 
+At the least supply a hostname.
+Also read the other 'install-*' scripts, and fill in the necessary values (email address and such).
 Please do edit the 'conf.network' file to suit your needs. The 'conf.software' file shouldn't need modification.
 
 # vagrant up
@@ -34,7 +32,7 @@ The command `vagrant up` should give you a running VM with icinga2, icingaweb2, 
 
 # passwords
 During install, a `vagrant reload` will occur.
-Just before that, the passwords are shown. 
+Just before that, the passwords are shown.
 There's about 20-30 lines after the reload, so scroll a bit back. You will see something like this:
 
 ```
@@ -50,9 +48,9 @@ There's about 20-30 lines after the reload, so scroll a bit back. You will see s
 ==> default:  * The db_ido_mysql library implements IDO functionality
 ==> default:  * for MySQL.
 ==> default:  */
-==> default: 
+==> default:
 ==> default: library "db_ido_mysql"
-==> default: 
+==> default:
 ==> default: object IdoMysqlConnection "ido-mysql" {
 ==> default:   user = "icinga2",
 ==> default:   password = "WScxhK8PF7X7",
@@ -66,8 +64,3 @@ There's about 20-30 lines after the reload, so scroll a bit back. You will see s
 Please see the screenshots for how to use them.
 
 TODO: Add screenshots
-
-
-
-
-
