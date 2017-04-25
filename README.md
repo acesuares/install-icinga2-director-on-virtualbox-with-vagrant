@@ -18,19 +18,19 @@ There is special network configuation in this VM, that has to do with hosting at
 and http://wiki.hetzner.de/index.php/KVM_mit_Nutzung_aller_IPs_-_the_easy_way/en
 However, you can just ignore that and configure your network as you see fit.
 
-# Preparation I
+## Preparation I
 Run the script `./00_install_plugins.sh` once before you run `vagrant up`. It installs two plugins that are useful.
 
-# Preparation II
+## Preparation II
 Make sure you modify the Vagrantfile accordingly. 1024 MB RAM is the minimum.
 At the least supply a hostname.
 Also read the other 'install-*' scripts, and fill in the necessary values (email address and such).
 Please do edit the 'conf.network' file to suit your needs. The 'conf.software' file shouldn't need modification.
 
-# vagrant up
+## vagrant up
 The command `vagrant up` should give you a running VM with icinga2, icingaweb2, icinga2-ido-mysql and icinga2-director.
 
-# passwords
+## passwords
 During install, a `vagrant reload` will occur.
 Just before that, the passwords are shown.
 There's about 20-30 lines after the reload, so scroll a bit back. You will see something like this:
